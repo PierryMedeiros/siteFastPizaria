@@ -1,0 +1,19 @@
+main{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    max-width: 500px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h3{
+    max-width: 450px;
+    text-align: center;
+}

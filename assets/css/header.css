@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Roboto&display=swap');
+
+:root{
+    --cor01: #f6b21f;
+    --car02: #e28d00;
+    --cor03: #830300;
+    --cor04: #350326;
+}
+
+html, body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 160px;
+    background-color: var(--cor04);
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 250px;
+    position: absolute;
+}
+
+nav{
+    position: absolute;
+    right: 100px;
+    font-size: 1.6em;
+    display: flex;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+nav > a:hover{
+    color: var(--car02);
+    transition: 0.3s;
+}
+
+nav > div{
+    width: 2px;
+    height: 30px;
+    background-color: rgb(180, 180, 180);
+}

@@ -1,0 +1,17 @@
+@media (max-width: 750px) {
+    header{
+        flex-direction: column;
+        height: 210px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .logo{
+        position: relative;
+    }
+
+    nav{
+        position: relative;
+        right: auto;
+    }
+}

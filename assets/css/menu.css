@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Roboto&display=swap');
+
+:root{
+    --cor01: #f6b21f;
+    --car02: #e28d00;
+    --cor03: #830300;
+    --cor04: #350326;
+}
+
+#pizzas{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pizzas h1{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.226);
+}
+
+#pizzas img{
+    width: 33px;
+    height: 30px;
+}
+
+.carrinho-btn{
+    cursor: pointer;
+}
+
+.carrinho{
+    width: 100%;
+    
+    background-color: rgb(243, 243, 243);
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.carrinho div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin-left: 10px;
+    height: 100px;
+    width:90px;
+    border-left: 2px solid rgb(179, 179, 179);
+    border-right: 2px solid rgb(179, 179, 179);
+}
+
+.carrinho > div > button{
+    border: none;
+    padding: 4px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: var(--car02);
+}
+
+#total{
+    position: absolute;
+    right: 80px;
+    display: block;
+}
+
+#finalizar-compra{
+    position: absolute;
+    right: 20px;
+    border: none;
+    padding: 6px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: var(--car02);
+}
+
+menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+menu h1{
+    font-size: 1.1em;
+}
+
+.nomePreco {
+    width: 100%;
+    text-align: center;
+    height: 25px;
+    font-weight: bold;
+}
+.pizzas{
+    height: 340px;
+    width: 250px;
+    margin: 15px;
+}
+
+.pizzaImg{
+    width: 250px;
+}
+
+.btnAdd{
+    width: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}

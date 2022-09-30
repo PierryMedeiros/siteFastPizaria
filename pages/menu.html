@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast pizza</title>
+    
+    <link rel="stylesheet" href="../assets/css/responsivo.css">
+    <link rel="stylesheet" href="../assets/css/menu.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/headerResponsivo.css">
+
+    <script src="../assets/js/menu.js" defer></script>
+</head>
+<body>
+    <!--Cabeçalho e area de navegação--> 
+    <header>
+        <img src="../assets/imgs/fastPizzaEditada.png"  alt="logoPizzaria" class="logo">
+        <nav>
+            <a href="./index.html">HOME</a>
+            <div></div>
+            <a href="./menu.html">Pizzas</a>
+            <div></div>
+            <a href="./sobre.html">Sobre</a>
+        </nav>
+    </header>
+
+    <!--Carrinho btn-->
+    <div id="pizzas">
+        <h1>Pizzas</h1> 
+        <img src="../assets/imgs/icone.png" alt="carrinho" class="carrinho-btn">
+    </div>
+
+    <!--Carrinho-->
+    <div class="carrinho">
+        <h3 id="total">
+        </h3>
+    </div>
+
+    <!--Botão para finalizar o pedido-->
+    <a href="./trabalhandoNisso.html">
+        <button id="finalizar-compra">
+            Finalizar Compra
+        </button>
+    </a>
+
+    <!--Menu de pizzas-->
+    <menu>
+        <div class="pizzas">
+            <img src="../assets/imgs/pizzas/editadas/pizzaBacon.png" alt="pizzadeBacon" class="pizzaImg">
+            <p class="nomePreco">R$20,00</p>
+            <h1 class="nomePreco">Bacon</h1>
+            <img src="../assets/imgs/botaoadcionar.png" alt="botao" class="btnAdd" onclick="adicionaCarrinho(bacon)">
+        </div>
+
+        <div class="pizzas">
+            <img src="../assets/imgs/pizzas/editadas/pizzaCalabresa.png" alt="pizzadeCalabresa" class="pizzaImg">
+            <p class="nomePreco">R$21,00</p>
+            <h1 class="nomePreco">Calabresa</h1>
+            <img src="../assets/imgs/botaoadcionar.png" alt="botao" class="btnAdd" onclick="adicionaCarrinho(calabresa)">
+        </div>
+
+        <div class="pizzas">
+            <img src="../assets/imgs/pizzas/editadas/pizzaPortuguesa.png" alt="pizzaPortuguesa" class="pizzaImg">
+            <p class="nomePreco">R$22,00</p>
+            <h1 class="nomePreco">Portuguesa</h1>
+            <img src="../assets/imgs/botaoadcionar.png" alt="botao" class="btnAdd" onclick="adicionaCarrinho(portuguesa)">
+        </div>
+
+        <div class="pizzas">
+            <img src="../assets/imgs/pizzas/editadas/pizzaXtudo.png" alt="pizzaXtudo" class="pizzaImg">
+            <p class="nomePreco">R$23,00</p>
+            <h1 class="nomePreco">X-Tudo</h1>
+            <img src="../assets/imgs/botaoadcionar.png" alt="botao" class="btnAdd" onclick="adicionaCarrinho(xtudo)">
+        </div>
+    </menu>
+</body>
+</html>
